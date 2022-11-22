@@ -17,3 +17,6 @@ As diretivas de cache são controladas pelo servidor através do cabeçalho HTTP
 Camadas: Arquitetura deve ser construída através de camadas gerenciadas de forma independente, onde cada layer não pode ver além do layer adjacente e mudanças de um layer não devem impactar nos demais. 
 É recomendável que o cliente nunca conecte-se diretamente no servidor de aplicação e que uma camada de balanceamento de carga seja adicionada entre cliente-servidor. 
 A grande vantagem de trabalhar em camadas é que a arquitetura se torna menos complexa e fica mais propensa a mudanças.
+
+Código sob demanda (opcional) – O REST permite que a funcionalidade do cliente seja estendida por meio do download e da execução de código na forma de applets ou scripts. 
+Isso simplifica os clientes, reduzindo o número de recursos necessários para serem pré-implementados.
