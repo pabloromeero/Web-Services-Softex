@@ -2,7 +2,9 @@ O protocolo web HTTP (Hypertext Transfer Protocol) é a forma mais popular de re
 Esse protocolo é utilizado principalmente em softwares e serviços que precisam de dados que não podem ser alocados na aplicação local do usuário, 
 sendo assim necessário armazenar em um servidor, e então, por meio do HTTP, o software cliente irá requisitar e exibir essas informações.
 
-Requisição: Na requisição, é onde será feito o envio e/ou a requisição de dados para o servidor. Por exemplo, enviar o login e a senha de um usuário e o servidor retornará através da Resposta se aquele usuário é válido ou não. Ou então, outro exemplo bastante recorrente é o streaming de arquivos.
+Requisição: Na requisição, é onde será feito o envio e/ou a requisição de dados para o servidor.
+Por exemplo, enviar o login e a senha de um usuário e o servidor retornará através da Resposta se aquele usuário é válido ou não. 
+Ou então, outro exemplo bastante recorrente é o streaming de arquivos.
 
 GET
 Esse método é o mais utilizado, tem a função de solicitar ou requisitar algum recurso ao servidor. 
