@@ -1,0 +1,19 @@
+O protocolo web HTTP (Hypertext Transfer Protocol) é a forma mais popular de receber e enviar arquivos e informações. Esse protocolo é utilizado principalmente em softwares e serviços que precisam de dados que não podem ser alocados na aplicação local do usuário, sendo assim necessário armazenar em um servidor, e então, por meio do HTTP, o software cliente irá requisitar e exibir essas informações.
+
+Requisição: Na requisição, é onde será feito o envio e/ou a requisição de dados para o servidor. Por exemplo, enviar o login e a senha de um usuário e o servidor retornará através da Resposta se aquele usuário é válido ou não. Ou então, outro exemplo bastante recorrente é o streaming de arquivos.
+
+GET
+Esse método é o mais utilizado, tem a função de solicitar ou requisitar algum recurso ao servidor. É geralmente usado para o retorno de informações sobre uma entidade especificamente ou uma lista delas, mas quando trata-se sobre arquivos muito extensos como listas de dados, é preciso que fique atento sobre a performance da API, e usa-se o conceito de Paginação, que é preferir mostrar a informação repartida em páginas, do que mostrar ela completa de uma vez só, ampliando assim a velocidade de tempo de resposta da API.
+
+POST
+Método usado para enviar informações ao servidor, é utilizado de forma mais popular em cadastros de dados retirados de um formulário, e também quando enviamos um arquivo para o servidor: seja isso uma foto de perfil, um post no Instagram, tudo isso é usado o método POST.
+
+PUT
+O PUT é responsável por editar arquivos e informações já existentes. Esse método usa-se juntamente com um parâmetro na URL da requisição, que ajudará a identificar através de uma chave única (id) qual elemento ele está referenciando.
+
+DELETE
+Esse método é bem autoexplicativo, deleta arquivos ou informações presentes no banco de dados. Igual o PUT, é recomendável que utilize-o usando um parâmetro na URL da requisição, para que evite problemas de deletar dois arquivos/informações ao mesmo tempo.
+
+WSDL
+O WSDL (Web Services Definition Language) é uma linguagem baseada em XML utilizada para descrever WebServices. Trata-se de um documento escrito em XML que, além de descrever o serviço, especifica como acessá-lo e quais as operações ou métodos disponíveis.
+O WSDL é um arquivo que existe em todo servidor que provê WebServices. Ele é o “cardápio” que mostra para a aplicação que está acessando, quais serviços ela pode utilizar, e como ela pode utilizar estes serviços.
