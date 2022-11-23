@@ -1,0 +1,17 @@
+CRUD é uma sigla/apelido para Create, Read, Update and Delete, em pt-br seria Criar, Ler, Atualizar, Deletar
+
+CREATE
+Quando se quer adicionar algo (uma ou mais linhas) a uma tabela MySQL, utiliza-se o comando INSERT. A sintaxe básica é:
+INSERT INTO `livraria`(`nomelivro`, `autor`, `isbn`) VALUES (`programador`, `pablo`, `000-0-00-0`);
+
+READ
+Quando se quer ler, puxar, ver, trazer, mostrar alguma informação do banco de dados, em MySQL, utiliza-se o SELECT. A sintaxe básica é:
+SELECT `nomelivro` FROM `livraria`;
+
+UPDATE
+Quando se quer atualizar, editar algo (uma ou mais linhas) em uma tabela MySQL, utiliza-se o comando UPDATE. A sintaxe básica é:
+UPDATE `livraria` SET `nomelivro`='pablo romero' WHERE `quantidade`= 1;
+
+DELETE
+Quando se quer deletar, remover, excluir algo (uma ou mais linhas) de uma tabela MySQL, utiliza-se o comando DELETE. A sintaxe básica é:
+DELETE FROM `livraria`;
